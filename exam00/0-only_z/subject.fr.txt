@@ -1,0 +1,5 @@
+Expected files   : only_z.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui  affiche un 'z' sur la sortie standard.

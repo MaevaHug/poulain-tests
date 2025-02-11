@@ -1,0 +1,20 @@
+Expected files   : print_odd.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend une chaîne de caractères en argument et affiche
+uniquement les caractères situés aux positions impaires, suivis d'un retour à
+la ligne.
+
+Si le nombre d'arguments est différent de 1, afficher un retour à la ligne.
+
+Exemples:
+
+$> ./print_odd "Hello World" | cat -e
+HloWrd$
+$> ./print_odd "42 is the answer" | cat -e
+4 stease$
+$> ./print_odd "a" | cat -e
+a$
+$> ./print_odd | cat -e
+$

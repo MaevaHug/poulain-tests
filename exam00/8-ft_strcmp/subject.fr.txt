@@ -1,0 +1,8 @@
+Expected files   : ft_strcmp.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Reproduire le fonctionnement de la fonction strcmp (man strcmp).
+
+Votre fonction devra être déclarée comme suit:
+	int	ft_strcmp(char *s1, char *s2);

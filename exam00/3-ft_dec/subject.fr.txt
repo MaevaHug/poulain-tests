@@ -1,0 +1,9 @@
+Expected files   : ft_dec.c
+Allowed functions: none
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui prend en paramètre un pointeur sur un entier et qui
+décrémente la valeur pointée par ce pointeur.
+
+Prototype de la fonction à utiliser :
+	void ft_dec(int *ptr);

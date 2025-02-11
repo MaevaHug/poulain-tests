@@ -1,0 +1,10 @@
+Expected files   : aff_g.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètre une chaîne de caractères, et qui
+affiche sur la sortie standard le premier caractère 'g' rencontré dans cette
+chaîne, suivi de `\n`.
+Si aucun 'g' n'est rencontré, le programme affiche 'g' suivi de `\n`.
+Si le nombre de paramètres est différent de 1, le programme affiche 'g' suivi
+de `\n`.
