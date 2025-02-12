@@ -1,0 +1,11 @@
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui qui convertit une chaîne de caractères str en un entier
+(type int) et le renvoie.
+
+Elle doit reproduire le fonctionnement de la fonction atoi (man atoi)..
+
+Elle devra être prototypée de la façon suivante:
+	int	ft_atoi(const char *str);

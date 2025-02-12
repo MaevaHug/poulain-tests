@@ -1,0 +1,9 @@
+Expected files   : ft_mul.c
+Allowed functions: none
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui prend en paramètre un pointeur sur un entier et qui
+multiplie la valeur pointée par ce pointeur par number.
+
+Prototype de la fonction à utiliser :
+	void ft_mul(int *ptr, number);

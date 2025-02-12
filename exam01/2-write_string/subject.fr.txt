@@ -1,0 +1,11 @@
+Expected files   : write_string.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui affiche une chaîne de caractères dans la sortie standard.
+
+Le pointeur passé à la fonction contient l'adresse du premier caractère de la
+chaîne de caractères.
+
+Elle devra être prototypée de la façon suivante:
+	void	write_string(char *str);

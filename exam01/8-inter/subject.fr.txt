@@ -1,0 +1,22 @@
+Expected files   : inter.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prend en paramètres 2 chaînes de caractères,
+et affiche, sans doublons, les caractères qui apparaissent dans les 2 chaînes,
+dans l'ordre d'apparition de la première.
+
+L'affichage se terminera par un `\n`.
+
+Si le nombre de paramètres est différent de 2, le programme affichera `\n`.
+
+Exemples:
+
+$>./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+padinto$
+$>./inter ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6ewg4$
+$>./inter "rien" "cette phrase ne cache rien" | cat -e
+rien$
+$>./inter | cat -e
+$
