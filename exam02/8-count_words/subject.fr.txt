@@ -1,0 +1,12 @@
+Expected files   : count_words.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui prends en paramètre une chaîne de caractères et qui
+retourne le nombre de mots retrouvés dans cette chaîne.
+
+On appelle "mot" une portion de chaîne de caractères délimitée soit par des
+espaces et/ou tabulations, soit par le début/fin de la chaîne.
+
+Elle devra être prototypée de la façon suivante:
+	int	count_words(char *str);

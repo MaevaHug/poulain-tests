@@ -1,0 +1,17 @@
+Expected files   : aff_first_param.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme qui prends des chaînes de caractères et affiche son premier
+argument suivi d'une newline.
+
+Si le nombre d'arguments est inférieur à 1, le programme affiche une newline.
+
+Exemple:
+
+$> ./aff_first_param vincent mit "l'ane" dans un pre et "s'en" vint | cat -e
+vincent$
+$> ./aff_first_param "j'aime le fromage de chevre" | cat -e
+j'aime le fromage de chevre$
+$> ./aff_first_param | cat -e
+$

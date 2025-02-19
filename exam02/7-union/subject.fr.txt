@@ -1,0 +1,28 @@
+Expected files   : union.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Écrire un programme nommé `union` qui prend en paramètre 2 chaînes de caractères
+et qui affiche, sans doublon, les caractères qui apparaissent dans l'une ou
+l'autre.
+
+L'affichage se fera dans l'ordre d'apparition de la ligne de commande
+et sera suivi d'un retour à la ligne.
+
+Si le nombre de paramètres transmis est différent de 2, le programme affiche une
+newline.
+
+Exemples:
+
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union ddf6vewg64f gtwthgdwthdwfteewhrtag6h4ffdhsd | cat -e
+df6vewg4thras$
+$>./union "rien" "cette phrase ne cache rien" | cat -e
+rienct phas$
+$>./union | cat -e
+$
+$>
+$>./union "rien" | cat -e
+$
+$>

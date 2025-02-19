@@ -1,0 +1,10 @@
+Expected files   : ft_itoa.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui prend un entier (type int) en paramètre et le convertit
+en une "NULL-terminated" chaîne de caractères.
+La fonction retourne le résultat dans un tableau de char que vous devez allouer.
+
+La fonction doit être déclarée comme suit:
+	char	*ft_itoa(int nbr);

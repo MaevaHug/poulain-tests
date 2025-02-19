@@ -1,0 +1,13 @@
+Expected files   : ft_split.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Écrire une fonction qui prend une chaîne de caractères en paramètre,
+la subdivise en mots et les retourne sous forme d'un tableau de chaînes de
+caractères NULL-terminated.
+
+On appelle "mot" une portion de chaîne de caractères délimitée soit par des
+espaces/tabulations/nouvelle ligne, soit par le début/fin de la chaîne.
+
+La fonction devra être prototypée ainsi:
+	char	**ft_split(char *str);
